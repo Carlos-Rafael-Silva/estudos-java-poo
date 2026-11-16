@@ -1,4 +1,4 @@
-package segundo.modulo.Assosicao.dominio;
+package segundo.modulo.aulas.dominio;
 
 public class Materia {
     private String nome;

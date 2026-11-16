@@ -1,8 +1,8 @@
 package segundo.modulo.aulas;
 
-import segundo.modulo.Assosicao.dominio.Escola;
-import segundo.modulo.Assosicao.dominio.Materia;
-import segundo.modulo.Assosicao.dominio.Professor;
+import segundo.modulo.aulas.dominio.Escola;
+import segundo.modulo.aulas.dominio.Materia;
+import segundo.modulo.aulas.dominio.Professores;
 //Aula 66 - Orientação Objetos - Associação pt 03 - Associação unidirecional muitos para um
 
 public class Aula18 {
@@ -13,12 +13,8 @@ public class Aula18 {
 
         Materia[] materias = {materia, materia2};
 
-        Professor  professor = new Professor("Pedro",  materias);
-        Professor [] professores = {professor};
+        Professores  professor = new Professores("Pedro",  materias);
 
-        Escola escola = new Escola("Maria Antonieita Joseval Pereira Dos Santos Costa", professores);
-
-        escola.imprime();
 
     }
 }

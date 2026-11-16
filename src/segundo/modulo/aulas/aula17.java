@@ -1,7 +1,7 @@
 package segundo.modulo.aulas;
 
-import segundo.modulo.Assosicao.dominio.Jogador;
-import segundo.modulo.Assosicao.dominio.Time;
+import segundo.modulo.aulas.dominio.Jogador;
+import segundo.modulo.aulas.dominio.Time;
 // Aula 65 - Associação pt 02 - Associação unidirecional um para muitos
 public class aula17 {
     public static void main(String[] args) {

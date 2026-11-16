@@ -1,11 +1,13 @@
-package segundo.modulo.Assosicao.dominio;
+package segundo.modulo.aulas.dominio;
+
+import segundo.modulo.aulas.dominio.Professores;
+
 
 public class Escola {
     private String nome;
-    Professor[] professores;
+    Professores[] professores;
 
-
-    public Escola(String nome, Professor[] professores) {
+    public Escola(String nome, Professores[] professores) {
         this.nome = nome;
         this.professores = professores;
 
@@ -15,9 +17,9 @@ public class Escola {
         System.out.println("----------Escola---------- ");
         System.out.println(this.nome);
         if (professores != null) {
-            System.out.println("----------Professor---------- ");
-            for (Professor i : professores) {
-                System.out.println("Professor: " + i.getNome());
+            System.out.println("----------Professores---------- ");
+            for (Professores i : professores) {
+                System.out.println("Professores: " + i.getNome());
                 if (i.getMaterias() != null) {
                     System.out.println("----------Materia---------- ");
                     for (Materia m : i.getMaterias()) {

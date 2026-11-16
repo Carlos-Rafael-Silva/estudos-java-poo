@@ -21,6 +21,9 @@ public class principal {
         //System.out.println(g[0].toString());
 
         Vizulizacao viz = new Vizulizacao(g[0],v[0]);
+        viz.avaliar();
         System.out.println(viz.toString());
+
+
     }
 }

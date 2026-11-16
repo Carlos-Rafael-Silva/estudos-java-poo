@@ -23,7 +23,7 @@ public class Aula02 {
         int idade = sc.nextInt();
         professor.idade = idade;
 
-        System.out.println("--------------Professor(a)--------------");
+        System.out.println("--------------Professores(a)--------------");
         System.out.printf("Nome: %s\nidade: %d\nsexo: %s", nome, idade, sexo);
 
     }

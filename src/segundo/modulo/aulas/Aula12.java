@@ -1,6 +1,6 @@
 package segundo.modulo.aulas;
 
-import segundo.modulo.Dconstrutores.Anime;
+import segundo.modulo.aulas.Dconstrutores.Anime;
 
 public class Aula12 {
     public static void main(String[] args) {

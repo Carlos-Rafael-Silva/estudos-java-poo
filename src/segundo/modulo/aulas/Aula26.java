@@ -1,8 +1,8 @@
 package segundo.modulo.aulas;
 
 
-import segundo.modulo.classesAbstratas.Estagiario;
-import segundo.modulo.classesAbstratas.Gerente;
+import segundo.modulo.aulas.classesAbstratas.Estagiario;
+import segundo.modulo.aulas.classesAbstratas.Gerente;
 
 public class Aula26 {
     public static void main(String[] args) {

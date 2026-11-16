@@ -1,6 +1,6 @@
 package segundo.modulo.aulas;
 
-import segundo.modulo.Assosicao.dominio.Jogador;
+import segundo.modulo.aulas.dominio.Jogador;
 
 
 import java.util.Scanner;

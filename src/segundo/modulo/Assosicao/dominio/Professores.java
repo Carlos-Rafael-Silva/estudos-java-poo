@@ -1,10 +1,10 @@
-package segundo.modulo.Assosicao.dominio;
+package segundo.modulo.aulas.dominio;
 
-public class Professor {
+public class Professores {
     private String nome;
     Materia[] materias;
 
-    public Professor(String nome, Materia[] materia) {
+    public Professores(String nome, Materia[] materia) {
         this.nome = nome;
         this.materias = materia;
     }

@@ -1,7 +1,7 @@
 package segundo.modulo.aulas;
 
 
-import segundo.modulo.Dconstrutores.Anime;
+import segundo.modulo.aulas.Dconstrutores.Anime;
 
 // Aula58 - Orientação Objetos - Construtores pt 01
 

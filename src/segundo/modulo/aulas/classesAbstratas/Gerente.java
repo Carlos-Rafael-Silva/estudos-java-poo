@@ -1,4 +1,4 @@
-package segundo.modulo.classesAbstratas;
+package segundo.modulo.aulas.classesAbstratas;
 
 public class Gerente extends Funcionario{
 

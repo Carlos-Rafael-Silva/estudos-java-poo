@@ -11,11 +11,27 @@ public class Vizulizacao {
         video.setViews(video.getViews() + 1);
     }
 
-    public void avaliar(){}
+    public void avaliar(){
+        this.video.setAvaliacao(5);
+    }
 
-    public void avaliar(int nota){}
+    public void avaliar(int nota){
+        this.video.setAvaliacao(nota);
+    }
 
-    public void avaliar(float porc){}
+    public void avaliar(float porc){
+        int tot =0;
+        if (porc<=20){
+            tot =3;
+        }else if (porc<=50){
+            tot =5 ;
+        }else if (porc<=90){
+            tot = 8;
+        }else {
+            tot = 10;
+        }
+        System.out.println(tot);
+    }
 
     @Override
     public String toString() {
@@ -24,6 +40,8 @@ public class Vizulizacao {
                 ", video=" + video +
                 '}';
     }
+
+
 
     public Gafanhoto getEspectador() {
         return espectador;
